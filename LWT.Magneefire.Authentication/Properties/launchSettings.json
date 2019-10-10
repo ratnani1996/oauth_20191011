@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "https://localhost:44340/",
-      "sslPort": 44340
+      "applicationUrl": "https://localhost:44396/",
+      "sslPort": 44396
     }
   },
   "profiles": {
@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Try2": {
+    "LWT.Magneefire.Authentication": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

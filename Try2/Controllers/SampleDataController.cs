@@ -15,6 +15,7 @@ namespace Try2.Controllers
         };
 
         [HttpGet("[action]")]
+        [Route("Weather")]
         public IEnumerable<WeatherForecast> WeatherForecasts()
         {
             var rng = new Random();
