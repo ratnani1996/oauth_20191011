@@ -8,7 +8,7 @@ namespace LWT.Magneefire.Authentication.Configuration
 {
     public static class Config
     {
-        internal static IEnumerable<ApiResource> GetAllApiResources()
+        internal static IEnumerable<ApiResource> GetApiResources()
         {
             return new List<ApiResource>
             {
@@ -22,14 +22,14 @@ namespace LWT.Magneefire.Authentication.Configuration
             {
                 new Client
                 {
-                    ClientId = "client",
+                    ClientId = "new client 2",
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
                     ClientSecrets =
                     {
-                        new Secret("secret".Sha256())
+                        new Secret("sldkjfljsdlkflksdj".Sha256())
                     },
                     AllowedScopes = { "Try2" },
-                    AccessTokenLifetime = 3600*24
+                    AccessTokenLifetime = 100
                 }
             };
 

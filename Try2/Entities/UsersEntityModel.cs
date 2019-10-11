@@ -17,5 +17,7 @@ namespace Try2.Entities
         public string Username { get; set; }
         [Column(TypeName = "varchar(30)")]
         public string Password { get; set; }
+
+        List<Contacts> Contact
     }
 }
